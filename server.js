@@ -1,5 +1,6 @@
 require('dotenv').config()
 
+const ViteExpress = require('vite-express')
 const express = require('express'),
 { MongoClient, ObjectId } = require('mongodb'),
 bcrypt = require('bcryptjs'),
@@ -138,4 +139,4 @@ app.post('/update', async (req, res) => {
     res.json(result)
 })
                 
-app.listen(process.env.PORT || 3000)
+ViteExpress.listen(app, process.env.PORT || 3000)
