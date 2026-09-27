@@ -2,7 +2,7 @@ Assignment 4 - Components
 ===
 ## Reading Tracker
 
-https://a4-angela-long.onrender.com/login.html
+https://a4-angela-long.onrender.com
 
 For Assignment 4, I updated my Assignment 3 Reading Tracker to use React components. The Reading Tracker allows users to add books, track their reading progress, edit book information, and delete books from their reading list. For this assignment, I used React to display and update the reading list while keeping the login functionality from Assignment 3.
 
