@@ -30,11 +30,6 @@ app.use(cookieParser())
 app.use(cors())
 app.use(morgan('dev'))
 app.use(responseTime())
-
-app.get('/', (req, res) => {
-    res.redirect('/login.html')
-})
-
 app.use( express.static( 'public') )
 app.use( express.json() )
 

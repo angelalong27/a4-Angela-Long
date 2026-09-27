@@ -24,7 +24,7 @@ const login = async function( event ) {
             alert('Account created successfully!')
         }
         localStorage.setItem('userId', result.userId)
-        window.location.href = '/index.html'
+        window.location.href = '/'
     } else {
         alert('Incorrect password.')
     }
